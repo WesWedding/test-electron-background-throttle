@@ -1,3 +1,12 @@
-// This file is required by the index.html file and will
-// be executed in the renderer process for that window.
-// All of the Node.js APIs are available in this process.
+function loopAnimationFrames () {
+  let start = Date.now()
+  requestAnimationFrame(function () {
+    let delta = Date.now() - start
+    if (delta > 1000) {
+      console.error('Time since last animation frame exceeds 1s:', delta);
+    }
+    loopAnimationFrames()
+  })
+}
+
+loopAnimationFrames()

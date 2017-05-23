@@ -1,9 +1,10 @@
 {
-  "name": "electron-quick-start",
+  "name": "background-throttle-testing",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "A minimal Electron application to show an issue with background throttling",
   "main": "main.js",
   "scripts": {
+    "prestart": "npm install",
     "start": "electron ."
   },
   "repository": "https://github.com/electron/electron-quick-start",

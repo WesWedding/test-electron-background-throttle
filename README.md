@@ -9,7 +9,7 @@ another window for a while, and then check the error log.
 
 If the animation frame took more than 1 second, you'll see an error message.
 
-![expected error](raf error.png)
+![expected error](./raf error.png)
 
 ## Electron Versions
 Behavior appears incorrect between version 1.5.0 and 8.0.0.

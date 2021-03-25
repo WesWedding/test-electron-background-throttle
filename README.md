@@ -12,7 +12,7 @@ If the animation frame took more than 1 second, you'll see an error message.
 ![expected error](raf error.png)
 
 ## Electron Versions
-Behavior appears incorrect on version 1.5.0 and above.
+Behavior appears incorrect between version 1.5.0 and 8.0.0.
 
 This test borrows heavily [nathansobo's original RAF test](https://github.com/nathansobo/disable-renderer-backgrounding-test-case) for the same issue.  
 This is mostly just a fresher version using Electron Quickstart and a more recent Electron version. 
